@@ -1,0 +1,115 @@
+{
+
+    "header": {
+        "skills": "Skills",
+        "projects": "Projects",
+        "hire": "Hire Me",
+        "darkMode": "DARK MODE",
+        "lightMode": "LIGHT MODE",
+        "switchLanguage": "TÜRKÇE'YE GEÇ"
+    },
+
+    "aboutMe": {
+        "title": "Creative thinker",
+        "subtitle": "Minimalism lover",
+        "description": "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer who is to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+        "hireMeButton": "Hire me",
+        "githubButton": "Github",
+        "linkedinButton": "LinkedIn"
+    },
+
+    "skills": {
+        "title": "Skills",
+        "items": [
+            {
+                "title": "JavaScript",
+                "description": "Comprehensive knowledge and experience in JavaScript development. Expert in developing web applications."
+            },
+            {
+                "title": "React.js",
+                "description": "Experienced in creating modern and scalable user interfaces using React."
+            },
+            {
+                "title": "Node.js",
+                "description": "Extensive experience in backend development with Node.js. API development and server management."
+            },
+            {
+                "title": "Redux",
+                "description": "Experienced in state management with Redux. Ability to manage complex application states."
+            },
+            {
+                "title": "VS Code",
+                "description": "Expert in efficient use of VS Code and optimizing development environment."
+            },
+            {
+                "title": "Figma",
+                "description": "Experienced in managing design processes with Figma and converting UI/UX designs to code."
+            }
+        ]
+    },
+
+"profile": {
+    "title": "Profile",
+    "tabTitles": {
+    "profile": "Profile",
+    "aboutMe": "About Me"
+    },
+    "labels": {
+        "dogumTarihi": "Birth Date:",
+        "ikametSehri": "City of Residence:",
+        "egitimDurumu": "Education:",
+        "tercihEttigiRol": "Preferred Role:"
+    },
+    "values": {
+        "dogumTarihi": "24.03.1996",
+        "ikametSehri": "Ankara",
+        "egitimDurumu": "Hacettepe University, Biology Bachelor's, 2016",
+        "tercihEttigiRol": "Frontend, UI"
+    },
+    "aboutMeText": "Lorem ipsum, dolor sit amet I'm excited about software to be developed. I'm here to develop work-oriented projects with Veniam studies. I love creating minimal designs and user-friendly interfaces. I'm always open to learning new technologies and improving myself."
+},
+"projects": {
+    "title": "Projects",
+    "items": [
+        {
+            "title": "Workintech",
+            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "image": "/src/assets/images/project1.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "View Site"
+        },
+        {
+            "title": "Random Jokes",
+            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "image": "/src/assets/images/project2.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "View Site"
+        },
+        {
+            "title": "Journey",
+            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "image": "/src/assets/images/project3.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "View Site"
+        }
+    ]
+},
+"footer": {
+    "title": {
+        "line1": "Let's work together on",
+        "line2": "your next product."
+    },
+    "email": "almilasucode@gmail.com",
+    "links": {
+    "blog": "Personal Blog",
+    "github": "Github",
+    "linkedin": "LinkedIn"
+    }
+}
+}

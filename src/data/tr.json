@@ -1,0 +1,115 @@
+{
+
+    "header": {
+        "skills": "Yetenekler",
+        "projects": "Projeler",
+        "hire": "İletişim",
+        "darkMode": "DARK MODE",
+        "lightMode": "LIGHT MODE",
+        "switchLanguage": "SWITCH TO ENGLISH"
+    },
+
+    "aboutMe": {
+       "title": "Yaratıcı Düşünür",
+        "subtitle": "Minimalist Tutkunu",
+        "description": "Merhaba, ben Almila. Full-stack geliştiriciyim. Eğer harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız. Benimle el sıkışalım.",
+        "hireMeButton": "İletişim",
+        "githubButton": "Github",
+        "linkedinButton": "LinkedIn"
+    },
+
+    "skills": {
+        "title": "Yetenekler",
+        "items": [
+            {
+                "title": "JavaScript",
+                "description": "JavaScript geliştirme konusunda kapsamlı bilgi ve deneyim. Web uygulamaları geliştirme konusunda uzmanım."
+            },
+            {
+                "title": "React.js",
+                "description": "React kullanarak modern ve ölçeklenebilir kullanıcı arayüzleri oluşturma konusunda deneyimliyim."
+            },
+            {
+                "title": "Node.js",
+                "description": "Node.js ile backend geliştirme konusunda kapsamlı deneyim. API geliştirme ve sunucu yönetimi."
+            },
+            {
+                "title": "Redux",
+                "description": "Redux ile state yönetimi konusunda deneyimli. Karmaşık uygulama state'lerini yönetme becerisi."
+            },
+            {
+                "title": "VS Code",
+                "description": "VS Code'u etkin kullanma ve geliştirme ortamını optimize etme konusunda uzman."
+            },
+            {
+                "title": "Figma",
+                "description": "Figma ile tasarım süreçlerini yönetme ve UI/UX tasarımlarını kodlamaya aktarma konusunda deneyimli."
+            }
+        ]
+    },
+
+"profile": {
+    "title": "Profil",
+    "tabTitles": {
+    "profile": "Profil",
+    "aboutMe": "Hakkımda"
+    },
+    "labels": {
+        "dogumTarihi": "Doğum tarihi:",
+        "ikametSehri": "İkamet Şehri:",
+        "egitimDurumu": "Eğitim Durumu:",
+        "tercihEttigiRol": "Tercih Ettiği Rol:"
+    },
+    "values": {
+        "dogumTarihi": "24.03.1996",
+        "ikametSehri": "Ankara",
+        "egitimDurumu": "Hacettepe Ünv. Biyoloji Lisans, 2016",
+        "tercihEttigiRol": "Frontend, UI"
+    },
+    "aboutMeText": "Lorem ipsum, dolor sit amet geliştirilecek yazılımlar için heyecan duyuyorum. Veniam ile çalışmalar, iş odaklı projeler geliştirmek için buradayım. Minimal tasarımlar ve kullanıcı dostu arayüzler oluşturmayı seviyorum. Yeni teknolojileri öğrenmeye ve kendimi geliştirmeye her zaman açığım."
+},
+"projects": {
+    "title": "Projeler",
+    "items": [
+        {
+            "title": "Workintech",
+            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "image": "/src/assets/images/project1.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "Siteyi Gör"
+        },
+        {
+            "title": "Random Jokes",
+            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "image": "/src/assets/images/project2.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "Siteyi Gör"
+        },
+        {
+            "title": "Journey",
+            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "image": "/src/assets/images/project3.png",
+            "githubLink": "https://github.com",
+            "githubText": "Github",
+            "siteLink": "https://example.com",
+            "siteText": "Siteyi Gör"
+        }
+    ]
+},
+"footer": {
+    "title": {
+        "line1": "Bir sonraki ürününüz için",
+        "line2": "birlikte çalışalım."
+    },
+    "email": "almilasucode@gmail.com",
+    "links": {
+    "blog": "Kişisel Blog",
+    "github": "Github",
+    "linkedin": "LinkedIn"
+    }
+}
+}
