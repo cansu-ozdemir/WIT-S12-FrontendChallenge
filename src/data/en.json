@@ -6,7 +6,10 @@
         "hire": "Hire Me",
         "darkMode": "DARK MODE",
         "lightMode": "LIGHT MODE",
-        "switchLanguage": "TÜRKÇE'YE GEÇ"
+        "switchLanguage": {
+            "highlight": "TÜRKÇE",
+            "rest": "'YE GEÇ"
+        }
     },
 
     "aboutMe": {
@@ -111,5 +114,9 @@
     "github": "Github",
     "linkedin": "LinkedIn"
     }
-}
+},
+   "loading": "Loading...",
+   "welcomeMessage": "Welcome to my portfolio! 👋",
+   "dataLoadedMessage": "Data loaded successfully! 🚀",
+    "errorMessage": "Error loading data!"
 }

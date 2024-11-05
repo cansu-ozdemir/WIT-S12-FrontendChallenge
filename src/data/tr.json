@@ -6,7 +6,10 @@
         "hire": "İletişim",
         "darkMode": "DARK MODE",
         "lightMode": "LIGHT MODE",
-        "switchLanguage": "SWITCH TO ENGLISH"
+        "switchLanguage": {
+            "highlight": "ENGLISH",
+            "rest": "SWITCH TO "
+        }
     },
 
     "aboutMe": {
@@ -111,5 +114,9 @@
     "github": "Github",
     "linkedin": "LinkedIn"
     }
-}
+},
+    "loading": "Yükleniyor...",
+    "welcomeMessage": "Portfolyoma hoş geldiniz! 👋",
+    "dataLoadedMessage": "Veriler başarıyla yüklendi! 🚀",
+    "errorMessage": "Veri yüklenirken bir hata oluştu!"
 }
