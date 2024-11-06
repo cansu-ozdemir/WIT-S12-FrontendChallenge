@@ -80,7 +80,7 @@
         {
             "title": "Workintech",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
-            "image": "/src/assets/images/project1.png",
+            "image": "project1.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",
@@ -89,7 +89,7 @@
         {
             "title": "Random Jokes",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
-            "image": "/src/assets/images/project2.png",
+            "image": "project2.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",
@@ -98,7 +98,7 @@
         {
             "title": "Journey",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
-            "image": "/src/assets/images/project3.png",
+            "image": "project3.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",

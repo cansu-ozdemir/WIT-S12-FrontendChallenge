@@ -1,7 +1,17 @@
+import project1 from '../../assets/images/project1.png';
+import project2 from '../../assets/images/project2.png';
+import project3 from '../../assets/images/project3.png';
+
+const projectImages = {
+    'project1.png': project1,
+    'project2.png': project2,
+    'project3.png': project3
+  };
+
 const ProjectCard = ({ title, description, image, githubLink, githubText, siteLink, siteText }) => {
     return (
     <div className="flex flex-col max-w-[90%] p-4 font-['Inter'] h-full">
-     <img src={image} alt={title} className="w-full h-auto rounded-lg mb-4"/>
+     <img src={projectImages[image]} alt={title} className="w-full h-auto rounded-lg mb-4"/>
          <h3 className="text-2xl font-medium mb-3 text-[#4338CA] dark:text-[#CFCBFF]">
            {title}
          </h3>

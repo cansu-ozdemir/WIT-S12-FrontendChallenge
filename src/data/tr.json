@@ -80,7 +80,7 @@
         {
             "title": "Workintech",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
-            "image": "/src/assets/images/project1.png",
+            "image": "project1.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",
@@ -89,7 +89,7 @@
         {
             "title": "Random Jokes",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
-            "image": "/src/assets/images/project2.png",
+            "image": "project2.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",
@@ -98,7 +98,7 @@
         {
             "title": "Journey",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
-            "image": "/src/assets/images/project3.png",
+            "image": "project3.png",
             "githubLink": "https://github.com",
             "githubText": "Github",
             "siteLink": "https://example.com",

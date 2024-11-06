@@ -1,6 +1,7 @@
 import { LanguageContext } from "../../context/LanguageContext";
 import { useContext } from "react";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import profileImage from "../../assets/images/profile.png";
 
 const AboutMe = ({data}) => {
   const { content } = useContext(LanguageContext);
@@ -53,7 +54,7 @@ const AboutMe = ({data}) => {
           </div>
 
           <div className="flex-1 w-full max-w-md">
-            <img src="/src/assets/images/profile.png" alt="Profile" className="w-full h-auto rounded-lg shadow-lg"/>
+            <img src={profileImage} alt="Profile" className="w-full h-auto rounded-lg shadow-lg"/>
           </div>
         </div>
       </div>
