@@ -25,7 +25,7 @@
         "title": "Skills",
         "items": [
             {
-                "title": "JavaScript",
+                "title": "Java Script",
                 "description": "Comprehensive knowledge and experience in JavaScript development. Expert in developing web applications."
             },
             {
@@ -66,10 +66,13 @@
     "values": {
         "dogumTarihi": "24.03.1996",
         "ikametSehri": "Ankara",
-        "egitimDurumu": "Hacettepe University, Biology Bachelor's, 2016",
+        "egitimDurumu": {
+        "line1": "Hacettepe University, Biology",
+        "line2": "Bachelor's, 2016"
+    },
         "tercihEttigiRol": "Frontend, UI"
     },
-    "aboutMeText": "Lorem ipsum, dolor sit amet I'm excited about software to be developed. I'm here to develop work-oriented projects with Veniam studies. I love creating minimal designs and user-friendly interfaces. I'm always open to learning new technologies and improving myself."
+    "aboutMeText": "The customer himself, the customer will be able to pursue the adipiscing of the company. Come or not, he hates any pleasures of labor except the softness. Shall we open the least charge with pleasure? The words that they leave behind are so many times great!"
 },
 "projects": {
     "title": "Projects",

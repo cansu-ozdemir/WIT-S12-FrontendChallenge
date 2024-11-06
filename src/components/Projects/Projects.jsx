@@ -12,9 +12,9 @@ const Projects = ({data}) => {
     const projectsData = data || content.projects;
     
     return (
-    <section id="projects" className="py-12 px-6 bg-white dark:bg-[#1F2937]">
+    <section id="projects" className="py-12 px-6 pb- 24 bg-white dark:bg-[#1F2937] font-['Inter']">
       <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
+          <h2 className="text-4xl font-bold text-[#1F2937] dark:text-[#AEBCCF] mb-12 font-['Inter']">
               {content.projects.title}
           </h2>
 

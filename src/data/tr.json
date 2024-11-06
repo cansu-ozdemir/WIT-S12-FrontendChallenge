@@ -25,7 +25,7 @@
         "title": "Yetenekler",
         "items": [
             {
-                "title": "JavaScript",
+                "title": "Java Script",
                 "description": "JavaScript geliştirme konusunda kapsamlı bilgi ve deneyim. Web uygulamaları geliştirme konusunda uzmanım."
             },
             {
@@ -66,10 +66,13 @@
     "values": {
         "dogumTarihi": "24.03.1996",
         "ikametSehri": "Ankara",
-        "egitimDurumu": "Hacettepe Ünv. Biyoloji Lisans, 2016",
+        "egitimDurumu": {
+        "line1": "Hacettepe Ünv, Biyoloji",
+        "line2": "Lisans, 2016"
+    },
         "tercihEttigiRol": "Frontend, UI"
     },
-    "aboutMeText": "Lorem ipsum, dolor sit amet geliştirilecek yazılımlar için heyecan duyuyorum. Veniam ile çalışmalar, iş odaklı projeler geliştirmek için buradayım. Minimal tasarımlar ve kullanıcı dostu arayüzler oluşturmayı seviyorum. Yeni teknolojileri öğrenmeye ve kendimi geliştirmeye her zaman açığım."
+    "aboutMeText": "Müşterinin kendisi, müşterinin şirketin adipisliğini takip edebilecektir. Gelsin ya da olmasın, emeğin yumuşaklığı dışında her türlü zevkinden nefret eder. En az şarjı keyifle açalım mı? Arkalarında bıraktıkları sözler o kadar harika ki!"
 },
 "projects": {
     "title": "Projeler",

@@ -37,9 +37,9 @@ const skillsData = data || content.skills;
 
 
   return (
-    <section id="skills" className="py-12 px-6 bg-white dark:bg-[#1F2937]">
+    <section id="skills" className="py-18 pt-32 px-6 bg-white dark:bg-[#1F2937] font-['Inter']">
         <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-10">
+            <h2 className="text-4xl font-bold text-[#1F2937] dark:text-[#AEBCCF] mb-10">
             {content.skills.title}
             </h2>
 

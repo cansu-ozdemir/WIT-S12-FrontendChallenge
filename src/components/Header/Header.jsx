@@ -9,7 +9,7 @@ const Header = () => {
 
 useEffect(() => {
   const handleScroll = () => {
-  const sections = ['skills', 'projects'];
+  const sections = ['skills', 'projects', 'about-me'];
   const currentSection = sections.find(section => {
   const element = document.getElementById(section);
   if (element) {const rect = element.getBoundingClientRect();
@@ -27,18 +27,22 @@ const element = document.getElementById(sectionId);
   element?.scrollIntoView({ behavior: 'smooth' });
   };
 
-const getLinkStyle = (sectionId) => {
-const baseStyle = "text-sm font-medium transition-colors duration-300";
-const isActive = activeSection === sectionId;
+  const getLinkStyle = (sectionId) => {
+    const baseStyle = "text-sm font-medium transition-colors duration-300 px-4 py-2 rounded-md";
+    const isActive = activeSection === sectionId;
     
-return `${baseStyle} ${isActive ? 'text-[#3730A3] dark:text-[#3730A3]' : 'text-[#6B7280] dark:text-[#6B7280]'}`;
+    return `${baseStyle} ${
+        isActive 
+            ? 'bg-white text-[#3730A3] border border-[#3730A3]' 
+            : 'text-[#6B7280] dark:text-[#6B7280] hover:bg-white hover:text-[#3730A3] hover:border hover:border-[#3730A3]'
+    }`;
 };
 
 return (
-<header className="fixed top-0 left-0 w-full bg-white dark:bg-[#1F2937] z-50">
+<header className="fixed top-0 left-0 w-full bg-white dark:bg-[#1F2937] z-50 h-[120px] font-['Inter']">
 <div className="max-w-7xl mx-auto px-6">
 
-<div className="flex justify-end items-center space-x-4 py-2">
+<div className="flex justify-end items-center space-x-4 py-4">
     <div className="flex items-center space-x-2">
 
 <button onClick={toggleTheme} className={`relative h-[24px] w-[48px] rounded-full transition-colors duration-300 ${theme === 'dark' ? 'bg-[#3A3A3A]' : 'bg-[#4731D3]'}`}>
@@ -49,11 +53,11 @@ return (
  )}
   </div>
 </button>
-<span className="text-sm font-medium text-gray-600 dark:text-gray-300">
+<span className="text-sm font-medium text-[#777777] dark:text-[#D9D9D9]">
   {theme === 'dark' ? 'DARK MODE' : 'LIGHT MODE'}
 </span>
 </div>
-<span className="text-gray-300 dark:text-gray-600">|</span>
+<span className="text-[#777777] dark:text-[#777777]">|</span>
 
 
 <button onClick={toggleLanguage} className="text-sm font-medium">
@@ -62,13 +66,13 @@ return (
     <span className="text-gray-500">
       {content?.header?.switchLanguage.rest}
     </span>
-    <span className={theme === 'dark' ? 'text-[#8F88FF]' : 'text-[#4731D3]'}>
+    <span className={theme === 'dark' ? 'text-[#B7AAFF]' : 'text-[#4731D3]'}>
       {content?.header?.switchLanguage.highlight}
     </span>
     </>
     ) : (
     <>
-    <span className={theme === 'dark' ? 'text-[#8F88FF]' : 'text-[#4731D3]'}>
+    <span className={theme === 'dark' ? 'text-[#B7AAFF]' : 'text-[#4731D3]'}>
      {content?.header?.switchLanguage.highlight}
     </span>
     <span className="text-gray-500">
@@ -80,7 +84,7 @@ return (
 </div>
 
 
-<div className="flex items-center justify-between py-4">
+<div className="flex items-center justify-between py-6">
 
 <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#EEEBFF] dark:bg-[#4731D3]">
   <span className="text-2xl text-[#7B61FF] dark:text-[#8F88FF] transform rotate-12">
@@ -98,7 +102,7 @@ return (
   {content?.header?.projects}
 </button>
                 
-<button onClick={() => scrollToSection('about-me')} className="px-4 py-1.5 bg-white dark:bg-[#1F2937] text-[#6366F1] dark:text-[#818CF8] border border-[#6366F1] dark:border-[#818CF8] rounded-md text-sm font-medium hover:bg-[#6366F1] hover:text-white dark:hover:bg-[#818CF8]">
+<button onClick={() => scrollToSection('about-me')} className={getLinkStyle('about-me')}>
   {content?.header?.hire}
 </button>
 </nav>
