@@ -10,7 +10,7 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider, LanguageContext } from './context/LanguageContext';
-import axios from 'axios';
+import { fetchPageData } from './services/api';
 
 function AppContent() {
   const [pageData, setPageData] = useState(null);
@@ -31,24 +31,23 @@ function AppContent() {
       }
     );
 
-    const fetchData = async () => {
-      try {
-        const response = await axios.post('https://reqres.in/api/workintech');
-        setPageData(response.data);
-  } catch (error) {
-    console.error('API Error:', error);
-    toast.error(language === 'tr' ? 'Veri yüklenirken bir hata oluştu!' : 'Error loading data!',
-    {
-      position: "bottom-right",
-      autoClose: 2000,
-    }
-     );
-    } finally {
-        setLoading(false);
-    }
-  };
-  fetchData();
-}, [language]); 
+    fetchPageData()
+    .then(data => {
+      setPageData(data);
+    })
+    .catch(error => {
+      toast.error(
+        language === 'tr' ? 'Veri yüklenirken bir hata oluştu!' : 'Error loading data!',
+        {
+          position: "bottom-right",
+          autoClose: 2000,
+        }
+      );
+    })
+    .finally(() => {
+      setLoading(false);
+    });
+  },[language]);
 
 return (
   <div className="min-h-screen bg-[#FFFFFF] dark:bg-[#252128]">

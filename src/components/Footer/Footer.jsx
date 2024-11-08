@@ -10,6 +10,18 @@ const Footer = ({data}) => {
 
   const footerData = data || content.footer;
 
+  const encodeEmail = (email) => {
+    return email.split('').map(char => `&#${char.charCodeAt(0)};`).join('');
+  };
+
+  const createEncodedMailto = (email) => {
+    const encodedEmail = encodeEmail(email);
+    return {
+      __html: `<a href="mailto:${email}" class="text-[#AF0C48] dark:text-[#BAB2E7] hover:underline mb-4 sm:mb-0 flex items-center font-['Inter']">
+      <span class="mr-2">👉</span>${encodedEmail}</a>`
+  };
+};
+
   return (
     <footer className="py-20 px-6 bg-[#F9F9F9] dark:bg-[#141414] font-['Inter']">
     <div className="max-w-7xl mx-auto">
@@ -19,10 +31,7 @@ const Footer = ({data}) => {
 </h2>
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-        <a href={`mailto:${content.footer.email}`} className="text-[#AF0C48] dark:text-[#BAB2E7] hover:underline mb-4 sm:mb-0 flex items-center font-['Inter']">
-          <span className="mr-2">👉</span>
-            {content.footer.email}
-        </a>
+      <div dangerouslySetInnerHTML={createEncodedMailto(content.footer.email)} />
 
       <div className="flex items-center gap-6">
         <a href="#blog" className="text-[#0A0A14] dark:text-[#E1E1FF] hover:text-[#7B61FF] dark:hover:text-[#8F88FF] font-['Inter']">
