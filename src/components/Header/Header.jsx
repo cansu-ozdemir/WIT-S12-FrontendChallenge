@@ -88,7 +88,7 @@ return (
 
 <div className="w-10 h-10 rounded-full flex items-center justify-center bg-[#EEEBFF] dark:bg-[#4731D3]">
   <span className="text-2xl text-[#7B61FF] dark:text-[#8F88FF] transform rotate-12">
-     A
+     C
   </span>
 </div>
 

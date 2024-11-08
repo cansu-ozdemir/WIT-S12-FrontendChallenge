@@ -21,7 +21,7 @@ const AboutMe = ({data}) => {
           <div className="relative flex items-baseline gap-1 mb-8">
           <div className="w-20 h-[1px] bg-[#4338CA] dark:bg-[#B7AAFF] translate-y-[-5px]"></div>
             <h3 className="text-m text-[#4338CA] dark:text-[#B7AAFF]">
-              Almila Su
+              Cansu Özdemir
             </h3>
             </div>
 
@@ -41,12 +41,12 @@ const AboutMe = ({data}) => {
               {content.aboutMe.hireMeButton}
               </button>
 
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="inline-flex flex-row items-center gap-2 px-4 py-2 bg-[#FFFFFF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] rounded-md text-[#3730A3] dark:text-[#E1E1FF] hover:bg-[#3730A3] dark:hover:bg-[#E1E1FF] hover:text-white dark:hover:text-black hover:border-transparent dark:hover:border-transparent transition-all">
+              <a href="https://github.com/cansu-ozdemir" target="_blank" rel="noopener noreferrer" className="inline-flex flex-row items-center gap-2 px-4 py-2 bg-[#FFFFFF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] rounded-md text-[#3730A3] dark:text-[#E1E1FF] hover:bg-[#3730A3] dark:hover:bg-[#E1E1FF] hover:text-white dark:hover:text-black hover:border-transparent dark:hover:border-transparent transition-all">
               <FaGithub size={16}/>
               {content.aboutMe.githubButton}
               </a>
 
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="inline-flex flex-row items-center gap-2 px-4 py-2 bg-[#FFFFFF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] rounded-md text-[#3730A3] dark:text-[#E1E1FF] hover:bg-[#3730A3] dark:hover:bg-[#E1E1FF] hover:text-white dark:hover:text-black hover:border-transparent dark:hover:border-transparent transition-all">
+              <a href="https://www.linkedin.com/in/cansu-ozdemir1/" target="_blank" rel="noopener noreferrer" className="inline-flex flex-row items-center gap-2 px-4 py-2 bg-[#FFFFFF] dark:bg-[#383838] border border-[#3730A3] dark:border-[#E1E1FF] rounded-md text-[#3730A3] dark:text-[#E1E1FF] hover:bg-[#3730A3] dark:hover:bg-[#E1E1FF] hover:text-white dark:hover:text-black hover:border-transparent dark:hover:border-transparent transition-all">
               <FaLinkedin size={16} />
               {content.aboutMe.linkedinButton}
               </a>

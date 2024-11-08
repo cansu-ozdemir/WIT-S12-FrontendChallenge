@@ -29,11 +29,11 @@ const Footer = ({data}) => {
           {content.footer.links.blog}
         </a>
                     
-       <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#00AB6B] dark:text-[#17D18B] hover:underline font-['Inter']">
+       <a href="https://github.com/cansu-ozdemir" target="_blank" rel="noopener noreferrer" className="text-[#00AB6B] dark:text-[#17D18B] hover:underline font-['Inter']">
           {content.footer.links.github}
        </a>
                         
-       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#0077B5] dark:text-[#0BA6F6] hover:underline font-['Inter']">
+       <a href="https://www.linkedin.com/in/cansu-ozdemir1/" target="_blank" rel="noopener noreferrer" className="text-[#0077B5] dark:text-[#0BA6F6] hover:underline font-['Inter']">
             {content.footer.links.linkedin}
        </a>
         </div>

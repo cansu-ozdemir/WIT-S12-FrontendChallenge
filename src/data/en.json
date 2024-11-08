@@ -15,7 +15,7 @@
     "aboutMe": {
         "title": "Creative thinker",
         "subtitle": "Minimalism lover",
-        "description": "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer who is to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+        "description": "Hi, I'm Cansu. I'm a full-stack developer. If you are looking for a Developer who is to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
         "hireMeButton": "Hire me",
         "githubButton": "Github",
         "linkedinButton": "LinkedIn"
@@ -64,11 +64,11 @@
         "tercihEttigiRol": "Preferred Role:"
     },
     "values": {
-        "dogumTarihi": "24.03.1996",
+        "dogumTarihi": "27.01.1995",
         "ikametSehri": "Ankara",
         "egitimDurumu": {
-        "line1": "Hacettepe University, Biology",
-        "line2": "Bachelor's, 2016"
+        "line1": "TOBB University, Economics",
+        "line2": "Bachelor's, 2022"
     },
         "tercihEttigiRol": "Frontend, UI"
     },
@@ -78,30 +78,30 @@
     "title": "Projects",
     "items": [
         {
-            "title": "Workintech",
+            "title": "Pizza",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
             "image": "project1.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/fsweb-s8-challenge-pizza",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://fsweb-s8-challenge-pizza-rqv8.vercel.app/",
             "siteText": "View Site"
         },
         {
-            "title": "Random Jokes",
+            "title": "Frontend Challenge",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
             "image": "project2.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/WIT-S12-FrontendChallenge",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://wit-s12-frontend-challenge.vercel.app/",
             "siteText": "View Site"
         },
         {
-            "title": "Journey",
+            "title": "Login",
             "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
             "image": "project3.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/ek-proje1",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://ek-proje1.vercel.app/",
             "siteText": "View Site"
         }
     ]

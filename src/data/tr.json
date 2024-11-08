@@ -15,7 +15,7 @@
     "aboutMe": {
        "title": "Yaratıcı Düşünür",
         "subtitle": "Minimalist Tutkunu",
-        "description": "Merhaba, ben Almila. Full-stack geliştiriciyim. Eğer harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız. Benimle el sıkışalım.",
+        "description": "Merhaba, ben Cansu. Full-stack geliştiriciyim. Eğer harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız. Benimle el sıkışalım.",
         "hireMeButton": "İletişim",
         "githubButton": "Github",
         "linkedinButton": "LinkedIn"
@@ -64,11 +64,11 @@
         "tercihEttigiRol": "Tercih Ettiği Rol:"
     },
     "values": {
-        "dogumTarihi": "24.03.1996",
+        "dogumTarihi": "27.01.1995",
         "ikametSehri": "Ankara",
         "egitimDurumu": {
-        "line1": "Hacettepe Ünv, Biyoloji",
-        "line2": "Lisans, 2016"
+        "line1": "TOBB Üniversitesi, İktisat",
+        "line2": "Lisans, 2022"
     },
         "tercihEttigiRol": "Frontend, UI"
     },
@@ -78,30 +78,30 @@
     "title": "Projeler",
     "items": [
         {
-            "title": "Workintech",
+            "title": "Pizza",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
             "image": "project1.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/fsweb-s8-challenge-pizza",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://fsweb-s8-challenge-pizza-rqv8.vercel.app/",
             "siteText": "Siteyi Gör"
         },
         {
-            "title": "Random Jokes",
+            "title": "Frontend Challenge",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
             "image": "project2.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/WIT-S12-FrontendChallenge",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://wit-s12-frontend-challenge.vercel.app/",
             "siteText": "Siteyi Gör"
         },
         {
-            "title": "Journey",
+            "title": "Login",
             "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
             "image": "project3.png",
-            "githubLink": "https://github.com",
+            "githubLink": "https://github.com/cansu-ozdemir/ek-proje1",
             "githubText": "Github",
-            "siteLink": "https://example.com",
+            "siteLink": "https://ek-proje1.vercel.app/",
             "siteText": "Siteyi Gör"
         }
     ]
