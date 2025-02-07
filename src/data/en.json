@@ -13,10 +13,10 @@
     },
 
     "aboutMe": {
-        "title": "Creative thinker",
-        "subtitle": "Minimalism lover",
-        "description": "Hi, I'm Cansu. I'm a full-stack developer. If you are looking for a Developer who is to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
-        "hireMeButton": "Hire me",
+        "title": "Innovative Developer",
+        "subtitle": "Functional Thinker",
+        "description": "Hi, I'm Cansu. I'm a Full Stack Developer. On the frontend, I design user-friendly and visually appealing interfaces, while on the backend, I build reliable, scalable, and high-performance systems. I focus on delivering powerful and functional solutions using modern web technologies. If you’d like to work with me on your projects, feel free to get in touch!",
+        "hireMeButton": "Get in Touch",
         "githubButton": "Github",
         "linkedinButton": "LinkedIn"
     },
@@ -70,16 +70,16 @@
         "line1": "TOBB University, Economics",
         "line2": "Bachelor's, 2022"
     },
-        "tercihEttigiRol": "Frontend, UI"
+        "tercihEttigiRol": "Full Stack, Frontend, Backend"
     },
-    "aboutMeText": "The customer himself, the customer will be able to pursue the adipiscing of the company. Come or not, he hates any pleasures of labor except the softness. Shall we open the least charge with pleasure? The words that they leave behind are so many times great!"
+    "aboutMeText": "Turning an idea into reality requires a solid technical foundation and effective collaboration. This is where I come in. I focus on bringing projects to life efficiently by prioritizing collaboration and transparent communication. By understanding user needs and business goals, I create a seamless frontend experience and a robust backend infrastructure. I work closely with clients throughout the process, incorporating feedback to ensure the best possible outcome."
 },
 "projects": {
     "title": "Projects",
     "items": [
         {
-            "title": "Pizza",
-            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "title": "Pizza Order",
+            "description": "A customizable and user-friendly pizza ordering application built with React and Vite. Users can select sizes and toppings to create their orders. Includes form validation, API integration, and Cypress testing.",
             "image": "project1.png",
             "githubLink": "https://github.com/cansu-ozdemir/fsweb-s8-challenge-pizza",
             "githubText": "Github",
@@ -88,7 +88,7 @@
         },
         {
             "title": "Frontend Challenge",
-            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "description": "A modern and customizable portfolio website built with React and Context API. Designed with Tailwind CSS for a fast and sleek UI. Showcases my projects and skills while providing an easy way for potential collaborators to get in touch.",
             "image": "project2.png",
             "githubLink": "https://github.com/cansu-ozdemir/WIT-S12-FrontendChallenge",
             "githubText": "Github",
@@ -96,8 +96,8 @@
             "siteText": "View Site"
         },
         {
-            "title": "Login",
-            "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This web builder and js interface is available as a NPM package and supports any kind of repository builder for code and theme purposes.",
+            "title": "Login Page",
+            "description": "A simple yet functional login page built with React, featuring user authentication. Implements basic credential validation and offers a fast, user-friendly experience with its minimal design.",
             "image": "project3.png",
             "githubLink": "https://github.com/cansu-ozdemir/ek-proje1",
             "githubText": "Github",

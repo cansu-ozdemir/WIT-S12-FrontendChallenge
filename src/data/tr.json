@@ -13,10 +13,10 @@
     },
 
     "aboutMe": {
-       "title": "Yaratıcı Düşünür",
-        "subtitle": "Minimalist Tutkunu",
-        "description": "Merhaba, ben Cansu. Full-stack geliştiriciyim. Eğer harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız. Benimle el sıkışalım.",
-        "hireMeButton": "İletişim",
+       "title": "İnovatif Geliştirici",
+        "subtitle": "Fonksiyonel Düşünür",
+        "description": "Merhaba, ben Cansu. Full Stack geliştiriciyim. Frontend tarafında kullanıcı dostu ve etkileyici arayüzler tasarlarken, backend tarafında güvenilir, ölçeklenebilir ve yüksek performanslı sistemler geliştiriyorum. Modern web teknolojileriyle güçlü ve işlevsel çözümler üretmeye odaklanıyorum. Eğer projelerinizde benimle çalışmak isterseniz, benimle iletişime geçebilirsiniz.",
+        "hireMeButton": "İletişim Geç",
         "githubButton": "Github",
         "linkedinButton": "LinkedIn"
     },
@@ -70,16 +70,16 @@
         "line1": "TOBB Üniversitesi, İktisat",
         "line2": "Lisans, 2022"
     },
-        "tercihEttigiRol": "Frontend, UI"
+        "tercihEttigiRol": "Full Stack, Frontend, Backend"
     },
-    "aboutMeText": "Müşterinin kendisi, müşterinin şirketin adipisliğini takip edebilecektir. Gelsin ya da olmasın, emeğin yumuşaklığı dışında her türlü zevkinden nefret eder. En az şarjı keyifle açalım mı? Arkalarında bıraktıkları sözler o kadar harika ki!"
+    "aboutMeText": "Bir fikri gerçeğe dönüştürmek için sağlam bir teknik altyapı ve etkili bir işbirliği gerekir. İşte tam da bu noktada devreye giriyorum. İşbirliği ve şeffaf iletişimi ön planda tutarak, projeleri en verimli şekilde hayata geçirmeye odaklanıyorum. Kullanıcı ihtiyaçlarını ve iş hedeflerini anlayarak, güçlü bir frontend deneyimi ve sağlam backend altyapısı oluşturuyorum. Müşteriyle sürekli iletişim halinde olarak süreci birlikte yönetiyor, geri bildirimleri dikkate alarak en iyi sonucu elde etmeyi hedefliyorum."
 },
 "projects": {
     "title": "Projeler",
     "items": [
         {
-            "title": "Pizza",
-            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "title": "Pizza Sipariş",
+            "description": "React ve Vite kullanılarak geliştirilen, özelleştirilebilir ve kullanıcı dostu bir pizza sipariş uygulaması. Kullanıcılar, boyut ve malzeme seçimlerini yaparak sipariş oluşturabilir. Form doğrulama, API entegrasyonu ve Cypress testleri içermektedir.",
             "image": "project1.png",
             "githubLink": "https://github.com/cansu-ozdemir/fsweb-s8-challenge-pizza",
             "githubText": "Github",
@@ -88,7 +88,7 @@
         },
         {
             "title": "Frontend Challenge",
-            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "description": "React ve Context API ile geliştirilen, modern ve özelleştirilebilir bir portföy web sitesi. Tailwind CSS kullanılarak hızlı ve şık bir tasarım oluşturuldu. Kullanıcı dostu arayüzüyle projelerimi ve yetkinliklerimi sergileyerek, işbirliği yapmak isteyenler için iletişim imkanı sunuyor.",
             "image": "project2.png",
             "githubLink": "https://github.com/cansu-ozdemir/WIT-S12-FrontendChallenge",
             "githubText": "Github",
@@ -96,8 +96,8 @@
             "siteText": "Siteyi Gör"
         },
         {
-            "title": "Login",
-            "description": "Basit, özelleştirilebilir, minimal kurulum çerez eklentisi kullanıcıların hangi çerezleri kabul etmek istediklerini seçmelerini sağlar. Bu web builder ve js arabirimine bir NPM paketi olarak dahil edilebilir ve her türlü depo oluşturucuyu kod ve tema açısından destekler.",
+            "title": "Giriş Sayfası",
+            "description": "React ile geliştirilen, kullanıcı doğrulama içeren basit ve işlevsel bir giriş sayfası. Kullanıcı adı ve şifre kontrolü yaparak temel kimlik doğrulama mantığını uygular. Minimal tasarımı sayesinde hızlı ve kullanıcı dostu bir deneyim sunar.",
             "image": "project3.png",
             "githubLink": "https://github.com/cansu-ozdemir/ek-proje1",
             "githubText": "Github",
